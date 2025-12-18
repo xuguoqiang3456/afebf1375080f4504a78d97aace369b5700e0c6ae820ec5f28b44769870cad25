@@ -2,24 +2,29 @@ name: xuguoqiang3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 1/6 * * *'
-
+    - cron: '50 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xuguoqiang3456
         env:
-          fvs3273: ${{ secrets.fvs3273 }}
+          wzvp1927: ${{ secrets.wzvp1927 }}
         run: |
-          echo $fvs3273 | jq -r .t52112 | /bin/bash
-          echo $vq81596 | jq -r .bavye262 | /bin/bash
-          echo $zh4 | jq -r .y396 | /bin/bash
-          echo $pydjk7 | jq -r .tmk48 | /bin/bash
-          echo $iskcs63529 | jq -r .cm8629 | /bin/bash
-          echo $enqz346 | jq -r .ql863 | /bin/bash
-          echo $k2 | jq -r .gvfp10 | /bin/bash
-          echo $dpnfv2803 | jq -r .ttjxq43 | /bin/bash
-          echo $zwwt827 | jq -r .cm702 | /bin/bash
+          echo $wzvp1927 | jq -r .faqz94 | /bin/bash
+          echo $o52 | jq -r .avzo4 | /bin/bash
+          echo $l817 | jq -r .wfzn11 | /bin/bash
+          echo $nxp88 | jq -r .jzlmh9 | /bin/bash
+          echo $dxe7186 | jq -r .tg13 | /bin/bash
+          echo $dgomy14075 | jq -r .dgm30 | /bin/bash
+          echo $jk886 | jq -r .lj0406 | /bin/bash
+          echo $g4518 | jq -r .gh17 | /bin/bash
+          echo $qyk08 | jq -r .vfh140 | /bin/bash
+          echo $qd3 | jq -r .m6 | /bin/bash
+          echo $viz0 | jq -r .qh11 | /bin/bash
+          echo $i1 | jq -r .onr86 | /bin/bash
+          echo $adjo99 | jq -r .f62004 | /bin/bash
+          echo $ffuzo42055 | jq -r .ftb9 | /bin/bash
 
